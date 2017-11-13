@@ -1,0 +1,25 @@
+A Node.js application consists of the following three important components
+* Import required modules − We use the require directive to load Node.js modules.
+* Create server − A server which will listen to client's requests similar to Apache HTTP Server.
+* Read request and return response − The server created in an earlier step will read the HTTP request made by the client which can be a browser or a console and return the response.
+
+## NPM
+Node Package Manager (NPM) provides two main functionalities −
+* Online repositories for node.js
+* Command line utility to install Node.js packages
+
+## Callback
+* Callback is an asynchronous equivalent for a function.
+* A callback function is called at the completion of a given task.
+* Any async function accepts a callback as the last parameter and a callback function accepts an error as the first parameter. 
+
+## Event Loop
+Node.js is a single-threaded application, but it can support concurrency via the concept of event and callbacks.
+
+# Express
+
+## Core Features
+
+* Allows to set up middlewares to respond to HTTP Requests.
+* Defines a routing table which is used to perform different actions based on HTTP Method and URL.
+* Allows to dynamically render HTML Pages based on passing arguments to templates.
