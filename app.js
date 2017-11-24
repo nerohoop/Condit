@@ -38,8 +38,8 @@ if(isProduction){
   mongoose.set('debug', true);
 }
 
-// Models
 require('./models/User');
+require('./config/passport');
 
 app.use(require('./routes'));
 

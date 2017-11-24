@@ -1,3 +1,5 @@
+## Middleware
+
 A Node.js application consists of the following three important components
 * Import required modules − We use the require directive to load Node.js modules.
 * Create server − A server which will listen to client's requests similar to Apache HTTP Server.
@@ -28,7 +30,6 @@ We'll be building out each feature in our application in three phases:
 Create the mongoose Models
 Create any helper methods on our models and route middleware required for the feature
 Creating the route to expose the functionality to our users
-
 
 ## Core Features
 
