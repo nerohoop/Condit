@@ -11,12 +11,24 @@ Node Package Manager (NPM) provides two main functionalities −
 ## Callback
 * Callback is an asynchronous equivalent for a function.
 * A callback function is called at the completion of a given task.
-* Any async function accepts a callback as the last parameter and a callback function accepts an error as the first parameter. 
+* Any async function accepts a callback as the last parameter and a callback function accepts an error as the first parameter.
 
 ## Event Loop
 Node.js is a single-threaded application, but it can support concurrency via the concept of event and callbacks.
 
-# Express
+## ExpressJS
+
+## Nodemon
+Will automatically monitor the folder and reboot our server.
+
+## mongoose.js
+Interact with mongoose database
+
+We'll be building out each feature in our application in three phases:
+Create the mongoose Models
+Create any helper methods on our models and route middleware required for the feature
+Creating the route to expose the functionality to our users
+
 
 ## Core Features
 
