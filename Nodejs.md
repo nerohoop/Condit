@@ -1,4 +1,11 @@
+https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/
+https://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js/5511507#5511507
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction
+
 ## Middleware
+Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. These functions are used to modify req and res objects for tasks like parsing request bodies, adding response headers, etc.
+
+## Router
 
 A Node.js application consists of the following three important components
 * Import required modules − We use the require directive to load Node.js modules.
