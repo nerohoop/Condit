@@ -1,4 +1,3 @@
-https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/
 https://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js/5511507#5511507
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction
 
@@ -7,10 +6,11 @@ Middleware functions are functions that have access to the request object (req),
 
 ## Router
 
+
 A Node.js application consists of the following three important components
 * Import required modules − We use the require directive to load Node.js modules.
-* Create server − A server which will listen to client's requests similar to Apache HTTP Server.
-* Read request and return response − The server created in an earlier step will read the HTTP request made by the client which can be a browser or a console and return the response.
+* Create server − A server which will listen to client's requests.
+* Read request and return response.
 
 ## NPM
 Node Package Manager (NPM) provides two main functionalities −
