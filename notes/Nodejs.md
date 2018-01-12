@@ -25,21 +25,12 @@ Node Package Manager (NPM) provides two main functionalities −
 ## Event Loop
 Node.js is a single-threaded application, but it can support concurrency via the concept of event and callbacks.
 
-## ExpressJS
-
 ## Nodemon
 Will automatically monitor the folder and reboot our server.
 
-## mongoose.js
-Interact with mongoose database
-
-We'll be building out each feature in our application in three phases:
-Create the mongoose Models
-Create any helper methods on our models and route middleware required for the feature
-Creating the route to expose the functionality to our users
+# ExpressJS
 
 ## Core Features
-
 * Allows to set up middlewares to respond to HTTP Requests.
 * Defines a routing table which is used to perform different actions based on HTTP Method and URL.
 * Allows to dynamically render HTML Pages based on passing arguments to templates.

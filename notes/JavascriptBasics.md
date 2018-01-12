@@ -1,3 +1,8 @@
+## Promises
+https://developers.google.com/web/fundamentals/primers/promises
+
+## Functions
+
 ## Declarations
 * var - Declares a variable, optionally initializing it to a value.
 * let - Declares a block-scoped, local variable, optionally initializing it to a value.
@@ -51,11 +56,6 @@ The following values evaluate to false (also known as Falsy values):
 * NaN
 * the empty string ("")
 All other values, including all objects, evaluate to true when passed to a conditional statement.
-
-## Promises
-
-
-# Functions
 
 ## Defining functions
 ```JavaScript
