@@ -6,11 +6,15 @@ Middleware functions are functions that have access to the request object (req),
 
 ## Router
 
-
 A Node.js application consists of the following three important components
 * Import required modules − We use the require directive to load Node.js modules.
 * Create server − A server which will listen to client's requests.
 * Read request and return response.
+
+### Route parameters
+Route parameters are named URL segments that are used to capture the values specified at their position in the URL. The captured values are populated in the req.params object, with the name of the route parameter specified in the path as their respective keys.
+
+To define routes with route parameters, simply specify the route parameters in the path of the route as shown below.
 
 ## NPM
 Node Package Manager (NPM) provides two main functionalities −

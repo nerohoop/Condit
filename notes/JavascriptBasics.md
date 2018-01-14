@@ -1,5 +1,9 @@
 ## Promises
-https://developers.google.com/web/fundamentals/primers/promises
+A promise can be:
+* fulfilled - The action relating to the promise succeeded
+* rejected - The action relating to the promise failed
+* pending - Hasn't fulfilled or rejected yet
+* settled - Has fulfilled or rejected
 
 ## Functions
 
@@ -44,6 +48,9 @@ Also, undefined and null are two distinct types: undefined is a type itself (und
 
 ## Data type conversion
 JavaScript is a dynamically typed language. That means you don't have to specify the data type of a variable when you declare it, and data types are converted automatically as needed during script execution.
+
+## Comparision Operators
+The identity (===) operator behaves identically to the equality (==) operator except no type conversion is done, and the types must be the same to be considered equal.
 
 # Control flow and error handling
 

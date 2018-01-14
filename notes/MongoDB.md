@@ -1,3 +1,6 @@
+## MongoDB
+MongoDB stores documents in collections. Collections are analogous to tables in relational databases.
+
 ## mongoose.js
 Interact with mongoose database
 
