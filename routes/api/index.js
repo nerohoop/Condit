@@ -3,6 +3,7 @@ var router = require('express').Router();
 router.use('/', require('./users'));
 router.use('/profiles', require('./profiles'));
 router.use('/articles', require('./articles'));
+router.use('/tags', require('./tags'));
 
 // When a middleware is defined with four arguments, it will be treated as an error handler
 // This error handler sits after all of our API routes and is used for catching ValidationErrors thrown by mongoose.
